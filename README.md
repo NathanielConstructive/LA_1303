@@ -22,7 +22,8 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss                |  Funktional    | Als ein Benutzer möchte ich, dass ich auf Flächen drücken kann, um sie mit X oder O zu markieren. |
-| 2    |                 |      |                                    |
+| 2    |  Muss               |  Funktional    | Als ein Benutzer möchte ich, dass die Website immer danach sucht, ob ich gewonnen, verloren oder unentschieden gespielt habe, damit ich das Spiel beenden kann und ich den Gegner schlagen kann. |
+|3|kann|Rand||
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
