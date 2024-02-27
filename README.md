@@ -4,9 +4,8 @@ Mirhan Özden
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|       | 0.0.1   | Demo-Projekt                                                 |
+|       | 1.0.0   |Fertiges Projekt                                              |
 
 ## 1 Informieren
 
@@ -23,18 +22,20 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss                |  Funktional    | Als ein Benutzer möchte ich, dass ich auf Flächen drücken kann, um sie mit X oder O zu markieren. |
 | 2    |  Muss               |  Funktional    | Als ein Benutzer möchte ich, dass die Website immer danach sucht, ob ich gewonnen, verloren oder unentschieden gespielt habe, damit ich das Spiel beenden kann und ich den Gegner schlagen kann. |
-|3|kann|Rand||
+|3|kann|Rand|Als Benutzer möchte ich, dass ich auf einen Restart Knopf drücken kann, damit ich nicht die ganze Seite neustarten muss, sondern mit einem schnellen Klicken das Spiel schnell neustarten kann.|
+|4|Muss|Funktional|Als Benutzer möchte ich, dass man nicht auf einen schon gedrückten Feld klicken kann, damit man nicht schummeln kann.|
+|5|Muss|||
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Spiel hat gestartet             | Linksklick (auf ein leeres Feld)        | X oder O                  |
+| 2.1  |  Spiel hat schon angefangen            | Linksklick (auf ein leeres Feld)        |  "X hat gewonnen", "O hat gewonnen", Unentschieden!                 |
+|3.1|Spiel ist fertig und man will ein neues Spiel starten|Linksklick (Auf den Neustart Knopf)|Leeres TicTacToe Feld|
+|4.1|Ein Feld wurde schon gedrückt und man will auf das gleiche Feld drücken|linksklick auf das Feld| nichts passiert|
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
