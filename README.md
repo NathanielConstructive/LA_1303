@@ -32,38 +32,39 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Spiel hat gestartet             | Linksklick (auf ein leeres Feld)        | X oder O                  |
-| 2.1  |  Spiel hat schon angefangen            | Linksklick (auf ein leeres Feld)        |  "X hat gewonnen", "O hat gewonnen", Unentschieden!                 |
+| 2.1  |  Spiel hat schon angefangen            | Linksklick (auf ein leeres Feld)        |  "X hat gewonnen", "0 hat gewonnen", Unentschieden!                 |
 |3.1|Spiel ist fertig und man will ein neues Spiel starten|Linksklick (Auf den Neustart Knopf)|Leeres TicTacToe Feld|
 |4.1|Ein Feld wurde schon gedrückt und man will auf das gleiche Feld drücken|linksklick auf das Feld| nichts passiert|
 
-
-### 1.4 Diagramme
-
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |       | Mirhan Özden          |              |               |
+| 2.A  |       | Mirhan Özden          |              |               |
+| 3.A  |       | Mirhan Özden          |              |               |
+| 4.A  |       | Mirhan Özden          |              |               |
+| 5.A  |       | Mirhan Özden          |              |               |
 
-Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 12 Lektionen 
+
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich für ein TicTacToe Spiel entschieden, welches man mit einem Partner spielen kann. Die erste Person beginnt als X und die zweite wird das 0. Wenn man schliesslich gewonnen, verloren oder unentschieden gespielt hat, hat man die Möglichkeit, das Spiel auf Knopfdruck neuzustarten.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |       |  Mirhan Özden           |               |                   |
+| 2.A  |       | Mirhan Özden          |               |                   |
+| 3.A  |       | Mirhan Özden          |              |               |
+| 4.A  |       | Mirhan Özden          |              |               |
+| 5.A  |       | Mirhan Özden          |              |               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
@@ -74,8 +75,4 @@ Total:
 | 1.1  |       |          |        |
 | ...  |       |          |        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+Alle Tests sind erfolgreich.
