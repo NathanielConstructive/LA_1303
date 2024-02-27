@@ -41,9 +41,11 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       | Mirhan Özden          |              |               |
-| 2.A  |       | Mirhan Özden          |              |               |
-| 3.A  |       | Mirhan Özden          |              |               |
+| 1.A  |  24.01     | Mirhan Özden          |  Feld mit x und 0 markieren            |   135 minuten            |
+| 2.A  |  24.01     | Mirhan Özden          |   Gewinner entscheiden           |  75 Minuten             |
+|3.A|14.02|Mirhan Özden|Verlierer entscheiden|60 Minuten|
+|4.A|14.02|Mirhan Özden|Unentschieden entscheiden|90 minuten|
+| 3.A  |  14.02     | Mirhan Özden          |              |               |
 | 4.A  |       | Mirhan Özden          |              |               |
 | 5.A  |       | Mirhan Özden          |              |               |
 
