@@ -1,9 +1,8 @@
-// Declare initial variables
+
 let player = "X"
 let winner = ""
 let play_board = ["", "", "", "", "", "", "", "", ""]
 
-// Function to check for a winner
 const checkWinner = () => {
   const lines = [
     [0, 1, 2],
@@ -23,17 +22,17 @@ const checkWinner = () => {
       play_board[a] === play_board[b] &&
       play_board[a] === play_board[c]
     ) {
-      winner = play_board[a]; // Set the winner
-      return true; // Return true if there's a winner
+      winner = play_board[a]; 
+      return true; 
     }
   }
-  return false; // Return false if no winner
+  return false; 
 };
 
-// Function to reset the board
+
 const reset_board = () => {
-  play_board = ["", "", "", "", "", "", "", "", ""] // Reset the board array
-  // Reset the visual board
+  play_board = ["", "", "", "", "", "", "", "", ""] 
+
   document.querySelectorAll(".block").forEach((block) => {
     block.textContent = ""
     block.classList.remove("occupied")
