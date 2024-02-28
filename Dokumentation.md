@@ -56,7 +56,8 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 |5.A|14.02|Mirhan Özden|Unentschieden entscheiden|90 Minuten|
 | 6.A  |  21.02     | Mirhan Özden          |  Neustartknopf Logik einfügen            |  45 Minuten             |
 | 7.A  |  21.02     | Mirhan Özden          |  Feld wird besetzt und ist nach dem Klicken nicht mehr anwählbar            |  45 Minuten             |
-|8.A|21.02|Mirhan Özden|TicTacToe Feld wird bei einem leeren Feld grün, falls man drüber hovert und rot bei einem schon gecklickten Feld||
+|8.A|21.02|Mirhan Özden|TicTacToe Feld wird bei einem leeren Feld grün, falls man drüber hovert und rot bei einem schon gecklickten Feld|30 Minuten|
+|9.A|28.02.2024|Mirhan Özden|Portfolio abschliessen|120 Minuten|
 
 Total: 12 Lektionen 
 
@@ -77,6 +78,7 @@ Ich habe mich für ein TicTacToe Spiel entschieden, welches man mit einem Partne
 |6.A|14.02|Mirhan Özden|45 Minuten|50 Minuten|
 |7.A|21.02|Mirhan Özden|45 Minuten|65 Minuten|
 |8.A|21.02|Mirhan Özden|30 Minuten|30 Minuten|
+|9.A|28.02|Mirhan Özden|120 Minuten|110 Minuten|
 
 
 ## 5 Kontrollieren
