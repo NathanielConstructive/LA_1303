@@ -4,8 +4,8 @@ Mirhan Özden
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Demo-Projekt                                                 |
-|       | 1.0.0   |Fertiges Projekt                                              |
+|  30.1     | 0.0.1   | Demo-Projekt                                                 |
+| 14.02      | 1.0.0   |Fertiges Projekt                                              |
 
 ## 1 Informieren
 
@@ -47,14 +47,13 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  24.01     | Mirhan Özden          |  Feld mit x und 0 markieren            |   135 minuten            |
-| 2.A  |  24.01     | Mirhan Özden          |   Gewinner entscheiden           |  75 Minuten             |
-|3.A|14.02|Mirhan Özden|Unentschieden entscheiden|90 minuten|
-| 4.A  |  14.02     | Mirhan Özden          |              |               |
-| 5.A  |       | Mirhan Özden          |              |               |
-| 6.A  |       | Mirhan Özden          |              |               |
-
-
+|1.A|24.01| Mirhan Özden |Layout erstellen| 90 Minuten|
+|2.A|24.01| Mirhan Özden |Farbe des Neustartknopfes ändern, falls man drauf klickt|90 Minuten|
+| 3.A  |  14.02     | Mirhan Özden          |  Feld mit x und 0 markieren            |   120 Minuten            |
+| 4.A  |  14.02     | Mirhan Özden          |   Gewinner entscheiden           |  75 Minuten             |
+|5.A|14.02|Mirhan Özden|Unentschieden entscheiden|90 Minuten|
+| 6.A  |  21.02     | Mirhan Özden          |  Neustartknopf Logik einfügen            |  45 Minuten             |
+| 7.A  |  21.02     | Mirhan Özden          |  Feld wird besetzt und ist nach dem Klicken nicht mehr anwählbar            |  45 Minuten             |
 
 Total: 12 Lektionen 
 
@@ -67,19 +66,25 @@ Ich habe mich für ein TicTacToe Spiel entschieden, welches man mit einem Partne
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |  Mirhan Özden           |               |                   |
-| 2.A  |       | Mirhan Özden          |               |                   |
-| 3.A  |       | Mirhan Özden          |              |               |
-| 4.A  |       | Mirhan Özden          |              |               |
-| 5.A  |       | Mirhan Özden          |              |               |
+| 1.A  | 24.01      |  Mirhan Özden           | 90 Minuten              |  120 Minuten                 |
+| 2.A  | 24.01      | Mirhan Özden          |    90 Minuten           |     80 Minuten              |
+| 3.A  | 21.02      | Mirhan Özden          |    120 Minuten          |      110 Minuten         |
+| 4.A  | 14.02      | Mirhan Özden          |    75 Minuten          |       80 Minuten        |
+| 5.A  |  14.02     | Mirhan Özden          |    90 Minuten          |     75 Minuten          |
+|7.A|14.02|Mirhan Özden|45 Minuten|50 Minuten|
+|8.A|21.02|Mirhan Özden|45 Minuten|65 Minuten|
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |  21.02     | Funktioniert         | Mirhan Özden        |
+| 2.1 |   21.02    | Funktioniert          | Mirhan Özden        |
+|3.1|21.02|Funktioniert |Mirhan Özden |
+|4.1|21.02|Funktioniert manchmal |Mirhan Özden |
+|5.1|21.02|Funktioniert |Mirhan Özden |
+|6.1|21.02|Funktioniert |Mirhan Özden |
+|7.1|21.02|Funktioniert |Mirhan Özden |
 
-Alle Tests sind erfolgreich.
+Alle Tests waren im grossen und Ganzen erfolgreich. Das einzige was nicht immer geht ist die Nummer 4. Manchmal geht es manchmal nicht.
