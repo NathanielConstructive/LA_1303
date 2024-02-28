@@ -27,6 +27,7 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 |5|muss|Funktional|Als Benutzer möchte ich erfahren, wann ich mit jemandem unentschieden spiele, damit wir dann schnell ins nächste Spiel gehen können.|
 |6|kann|Rand|Als Benutzer möchte ich, dass ich auf einen Restart Knopf drücken kann, damit ich nicht die ganze Seite neustarten muss, sondern mit einem schnellen Klicken das Spiel schnell neustarten kann.|
 |7|Muss|Funktional|Als Benutzer möchte ich, dass man nicht auf einen schon gedrückten Feld klicken kann, damit man nicht schummeln kann.|
+|8|kann|Rand|Als Benuter möchte ich, dass wenn ich auf einem leeren Feld darüber hovere, es grün ist und bei einem besetzen Feld rot|
 
 
 
@@ -41,6 +42,7 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 |5.1|Spiel ist am laufen|Linksklick auf ein Feld (ohne dass man gewinnt)|Es ist unentschieden!|
 |6.1|Spiel ist fertig und man will ein neues Spiel starten|Linksklick (Auf den Neustart Knopf)|Leeres TicTacToe Feld|
 |7.1|Ein Feld wurde schon gedrückt und man will auf das gleiche Feld drücken|linksklick auf das Feld| nichts passiert|
+|8.1|Feld ist besetzt oder leer|Mit der maus über das Feld hovern|Rotes Feld oder grünes Feld|
 
 
 ## 2 Planen
@@ -54,6 +56,7 @@ dass ich nach diesem Projekt, ich mit JavaScript besser umgehen kann. Auch möch
 |5.A|14.02|Mirhan Özden|Unentschieden entscheiden|90 Minuten|
 | 6.A  |  21.02     | Mirhan Özden          |  Neustartknopf Logik einfügen            |  45 Minuten             |
 | 7.A  |  21.02     | Mirhan Özden          |  Feld wird besetzt und ist nach dem Klicken nicht mehr anwählbar            |  45 Minuten             |
+|8.A|21.02|Mirhan Özden|TicTacToe Feld wird bei einem leeren Feld grün, falls man drüber hovert und rot bei einem schon gecklickten Feld||
 
 Total: 12 Lektionen 
 
@@ -71,8 +74,9 @@ Ich habe mich für ein TicTacToe Spiel entschieden, welches man mit einem Partne
 | 3.A  | 21.02      | Mirhan Özden          |    120 Minuten          |      110 Minuten         |
 | 4.A  | 14.02      | Mirhan Özden          |    75 Minuten          |       80 Minuten        |
 | 5.A  |  14.02     | Mirhan Özden          |    90 Minuten          |     75 Minuten          |
-|7.A|14.02|Mirhan Özden|45 Minuten|50 Minuten|
-|8.A|21.02|Mirhan Özden|45 Minuten|65 Minuten|
+|6.A|14.02|Mirhan Özden|45 Minuten|50 Minuten|
+|7.A|21.02|Mirhan Özden|45 Minuten|65 Minuten|
+|8.A|21.02|Mirhan Özden|30 Minuten|30 Minuten|
 
 
 ## 5 Kontrollieren
@@ -86,5 +90,6 @@ Ich habe mich für ein TicTacToe Spiel entschieden, welches man mit einem Partne
 |5.1|21.02|Funktioniert |Mirhan Özden |
 |6.1|21.02|Funktioniert |Mirhan Özden |
 |7.1|21.02|Funktioniert |Mirhan Özden |
+|8.1|21.02|Funktioniert|Mirhan Özden|
 
 Alle Tests waren im grossen und Ganzen erfolgreich. Das einzige was nicht immer geht ist die Nummer 4. Manchmal geht es manchmal nicht.
